@@ -1,0 +1,25 @@
+{
+    "name": "7os/web-prjman",
+    "description": "7 OS Web - Project manager",
+    "keywords": ["php","7","seven","os","web","app", "project", "manager"],
+    "homepage": "https://github.com/7os/web-prjman",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ikechukwu Okalia",
+            "email": "me@sirlouis.io"
+        },
+        {
+            "name": "Tym Frontiers Ltd.",
+            "email": "dev@tymfrontiers.com"
+        }
+    ],
+    "require": {
+      "tymfrontiers-cdn/php-session" : ">=0.1@stable"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {}
+    }
+}
