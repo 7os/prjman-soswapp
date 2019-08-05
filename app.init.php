@@ -1,8 +1,8 @@
 <?php
 // load up app settings
 $conf_path = \str_replace([
-  "/vendor/7os/web-app",
-  "/dev/7os/web-app",
+  "/vendor/7os/web-prjman",
+  "/dev/7os/web-prjman",
 ],"",__DIR__) . "/.system/appdata/7os/web-prjman";
 $conf_file = $conf_path . "/app.config";
 
