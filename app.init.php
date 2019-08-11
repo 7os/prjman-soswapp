@@ -1,11 +1,11 @@
 <?php
 // load up app settings
 $conf_path = \str_replace([
-  "/vendor/7os/web-prjman",
-  "/dev/7os/web-prjman",
-  "\\vendor\\7os\\web-prjman",
-  "\\dev\\7os\\web-prjman",
-],"",__DIR__) . "/.system/appdata/7os/web-prjman";
+  "/vendor/7os/web-app-prjman",
+  "/dev/7os/web-app-prjman",
+  "\\vendor\\7os\\web-app-prjman",
+  "\\dev\\7os\\web-app-prjman",
+],"",__DIR__) . "/.system/appdata/7os/web-app-prjman";
 $conf_file = $conf_path . "/app.config";
 
 if (!\file_exists($conf_file) || !\is_readable($conf_file)) {
