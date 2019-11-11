@@ -1,10 +1,10 @@
 <?php
 // load up app settings
 $conf_path = \str_replace([
-  "/vendor/7os/web-app-prjman",
-  "/dev/7os/web-app-prjman",
-  "\\vendor\\7os\\web-app-prjman",
-  "\\dev\\7os\\web-app-prjman",
+  "/vendor/7os/prjman-soswapp",
+  "/dev/7os/prjman-soswapp",
+  "\\vendor\\7os\\prjman-soswapp",
+  "\\dev\\7os\\prjman-soswapp",
 ],"",__DIR__);
 $conf_file = $conf_path . "/project-info.json";
 

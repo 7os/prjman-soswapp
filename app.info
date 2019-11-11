@@ -1,7 +1,7 @@
 {
-  "name" : "7os/web-prjman",
+  "name" : "7os/prjman-soswapp",
   "description" : "7 OS Web - project manager",
-  "homepage" : "https://github.com/7os/web-prjman",
+  "homepage" : "https://github.com/7os/prjman-soswapp",
   "support" : {
     "email" : "dev@tymfrontiers.com",
     "website" : "https://tymfrontiers.com",
