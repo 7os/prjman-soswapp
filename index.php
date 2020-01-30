@@ -16,6 +16,7 @@ require_once APP_BASE_INC;
     <meta name="publisher" content="Your company">
     <meta name="robots" content='index'>
     <!-- Theming styles -->
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/font-awesome-soswapp/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/theme-soswapp/css/theme.min.css">
     <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/theme-soswapp/css/theme-<?php echo PRJ_THEME; ?>.min.css">
     <!-- optional plugin -->
