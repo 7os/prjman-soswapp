@@ -1,6 +1,7 @@
 <?php
 require_once "app.init.php";
 require_once APP_BASE_INC;
+$page_name = "prjman";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" manifest="<?php echo WHOST; ?>/site.webmanifest">
