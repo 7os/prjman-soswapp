@@ -28,7 +28,7 @@ $page_name = "prjman";
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
   <body>
-    <?php \setup_page('prjman','base', true); ?>
+    <?php \setup_page('prjman','base', true, PRJ_HEADER_HEIGHT); ?>
     <?php include PRJ_INC_HEADER; ?>
     <section id="main-content">
       <h1>7 OS Web - Project manager</h1>
